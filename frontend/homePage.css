@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 1.2rem;
+}
+:root{
+    --list-style: none;
+    --font-size: 1.5rem;
+    --gap: 40px;
+    --nav-background-color: background-color: rgba(127, 255, 212, 0.336);
+}
+.nav-bar{
+    background-color: rgba(127, 255, 212, 0.336);
+    /* margin-top: 40px; */
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    outline: none;
+ 
+}
+
+.nav-ul1{
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+    font-size: var(--font-size);
+    list-style: var(--list-style);
+    gap: 10px;
+} 
+.oneTouch{
+    display: block;
+}
+.nav-ul1 small{
+    font-size: 1rem;
+}
+
+.nav-ul2{
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+       list-style: var(--list-style);
+       gap: var(--gap);
+       font-size: var(--font-size);
+}
+.nav-ul2-select{
+    border: none;
+    background-color: var(--nav-background-color);
+    font-size: var(--font-size);
+    outline: none;
+}
+/* .nav-ul2-select-option{
+    padding: 200px;
+} */
+.nav-ul3{
+    display: flex;
+    justify-content: space-around;
+    align-items: inherit;
+       list-style: var(--list-style);
+       gap: var(--gap);
+       
+} 
+.nav-ul3 img{
+    height: 20px;
+}

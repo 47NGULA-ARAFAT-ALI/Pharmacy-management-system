@@ -3,46 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./homePage.css">
     <title>Scam Pharmacy</title>
 </head>
-<body>
+<body >
     <header>
-        <nav>
-            <div>
-                <p>Ourc client Our Priority!</p>
-                <ul>
-                    <li><a href="">facebook</a></li>
-                    <li><a href="">instagram</a></li>
-                    <li><a href="">twitter</a></li>
-                    <li><a href="">linkedIn</a></li>
-                    <li><a href="">youtube</a></li>
-                </ul>
-                <div>  
-                    <p>Call To Order</p>
-                    <p>Order through Whatsapp</p>
-                </div>
-            </div>
-            <div>
-                <ul>
-                    <li>
-                        <a href="">logo</a>
-                        <a href="">shop</a>
-                        <a href="">Health blog</a>
-                        <a href="">store locator</a>
-                        <a href="">contact Us</a>
-                    </li>
-                    <div>
-                        <ul>
-                            <li>
-                                <a href="">cart</a>
-                                <a href="">search</a>
-                                <a href="">Account</a>
-                            </li>
-                        </ul>
-                    </div>
-                </ul>
-            </div>
+        <nav class="nav-bar">
+           <ul class="nav-ul1">
+             <li><img src="./images/pharmacyLogo.png" alt="" height="50px"></li>
+             <li> <strong class="oneTouch">OneTouch</strong> <small>Pharmacy LTD</small> </li>
+           </ul>
+           <ul class="nav-ul2">
+                <li>
+                <select name="" id="" class="nav-ul2-select">
+                <option  class="nav-ul2-select-option" value="shop">Shop</option>
+                <option class="nav-ul2-select-option" value="shop">items</option>
+                <option class="nav-ul2-select-option"  value="shop">items</option>
+            </select>
+                </li>
+                
+                <li>Health Blog</li>
+                <li>Store Locator</li>
+                <li>Contact Us</li>
+           </ul>
+           <ul class="nav-ul3">
+                <li><img src="./images/search-outline.svg" height="50px" alt="cart-image"></li>
+                <li><img src="./images/cart-outline.svg" height="50px" alt="cart-image"></li>
+                <li><img src="./images/person-sharp.svg" height="50px" alt="cart-image"></li>
+           </ul>
         </nav>
-    </header>
+        <main>
+         <section class="main-section1">
+          <div class="main-section1-div1" >
+            <p>Need medicational releif?</p>
+            <h1>Order Now! <br> We got you covered <br> As we deliver it to your home.</h1>
+            <p>Choose <strong>One-Touch Pharmacy</strong> , the best online pharmacy in North-East Ghana! Our mission is to make healthcare accessible and convenient. With a wide selection of reliable medications, you can easily find what you need. Enjoy easy online ordering and quick home delivery. Whether you need prescription drugs or over-the-counter products, One-Touch Pharmacy is here to support your health and wellness.</p>
+            <button class="main-section1-div1-button">Shop Now</button>
+          </div>
+          <section class="main-section1-div2">
+            <img src="./images/Women-Care.webp" alt=""  height="100px" class="main-section1-div2-images">
+            <img src="./images/Women-Care.webp" alt=""  height="100px" class="main-section1-div2-images">
+            <img src="./images/Women-Care.webp" alt=""  height="100px" class="main-section1-div2-images">
+            <img src="./images/Women-Care.webp" alt=""  height="100px" class="main-section1-div2-images">
+          </section>
+        </section>
+
+        </main>
+    <!-- </header>
+    <input class="btn"type="text" id="text">
+    <button  class="btn" onclick="speechSynthesis.speak(new SpeechSynthesisUtterance (text.value))"><img src="./images/mic-outline.svg" alt=""></button> -->
+    <script src="./homepage.js"></script>
 </body>
 </html>
