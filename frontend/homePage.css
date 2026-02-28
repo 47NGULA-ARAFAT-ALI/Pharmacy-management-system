@@ -144,3 +144,101 @@ h1,h2,p,button{
     border-radius: 5px;
     margin: 10px;
 }
+/* section2 */
+.main-section2{
+    background-color: var(--nav-background-color);
+    margin-top: 70px;
+  
+}
+.main-section2-div1{
+    background-color: rgba(0, 128, 0, 0.829);
+    
+    display: flex;
+    margin: 0 40px;
+    margin-top: 20px;
+   
+    border-radius: 15px;
+     height: 100%;
+    
+    align-items: center;
+    justify-content: space-evenly;
+ 
+ 
+    
+
+}
+.main-section2 h2{
+    color: rgba(20, 20, 20, 0.623);
+    margin-left: 40px;
+}
+.main-section2-div1-images img{
+    /* object-fit:cover ; */
+    display: flex;
+    height: 200px;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+/* || */
+    .main1{
+            background-color: red;
+            padding: 20px;
+            display: block;
+           margin: 100px 0 0 0;
+           display: flex;
+            left: 50%;
+            justify-content: space-evenly;
+            
+
+
+        }
+        body{
+            height: 100vh;
+        }
+        .imgClass{
+            box-shadow:100px;
+            background-color: white;
+            padding: 060px;
+              border-radius: 5px 10px;
+              box-shadow: 3px 2px 2px 2px #4A3D3E;
+
+
+
+        }
+        .cedis1{
+                position: relative;
+                top: -57px;
+                margin-left: 85px;
+                background-color: blue;
+                width: fit-content;
+                border-radius: 4px;
+                padding: 4px;
+        }
+        .cedis2{
+               position: relative;
+                top: -73px;
+                margin-left: 20px;
+                background-color: blue;
+                width: fit-content;
+                border-radius: 4px;
+                padding: 4px;
+        }
+        .cedis3{
+               position: relative;
+                top: -73px;
+                margin-left: 260px;
+                background-color: blue;
+                width: fit-content;
+                border-radius: 4px;
+                padding: 4px;
+        }
+        .cedis2{
+               position: relative;
+                top: -73px;
+                margin-left: 260px;
+                background-color: blue;
+                width: fit-content;
+                border-radius: 4px;
+                padding: 4px;
+        }
