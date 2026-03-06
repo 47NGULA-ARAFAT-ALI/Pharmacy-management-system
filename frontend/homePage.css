@@ -9,6 +9,9 @@
 body{
     font-family:var(--font-family);
     font-size: 1.2rem;
+       height: 100%;
+       width: 100%;
+
 }
 h1,h2,p,button{
     font-family: var(--hs-p-font-family);
@@ -90,8 +93,9 @@ h1,h2,p,button{
        gap: var(--gap);
        
 } 
-.nav-ul3 img{
-    height: 20px;
+.nav-ul1 img{
+    height: 70px;
+      mix-blend-mode: multiply;
 }
 .main-section1{
     display: flex;
@@ -100,10 +104,7 @@ h1,h2,p,button{
     margin: 140px 20px 0 20px;
     /* gap: 40px; */
 }
-.main-section1-div1{
-    /* margin-top: 150px; */
 
-}
 .main-section1-div1 h1{
     color: rgb(70, 173, 139);
     margin-top: 15px;
@@ -114,16 +115,24 @@ h1,h2,p,button{
         line-height: 2rem;
 
 }
-.main-section1-div1-button{
+.homepage-button{
+    
     margin-top: 10px;
     background-color: var(--btn-color);
     padding: 13px;
-    color: white;
+    
     border-radius: 5px;
     border-style: none;
-    width: 50%;
+    /* width: 50%; */
     outline-style: none;
     font-size: var(--font-size);
+}
+hr{
+    background-color: red;
+}
+.homepage-button a{
+    text-decoration: none;
+    color: white;
 }
 .main-section1-div2 {
     display:flex;
@@ -146,11 +155,11 @@ h1,h2,p,button{
 }
 /* section2 */
 .main-section2{
-    background-color: var(--nav-background-color);
+    /* background-color: var(--nav-background-color); */
     margin-top: 70px;
   
 }
-.main-section2-div1{
+/* .main-section2-div1{
     background-color: rgba(0, 128, 0, 0.829);
     
     display: flex;
@@ -164,48 +173,54 @@ h1,h2,p,button{
     justify-content: space-evenly;
  
  
-    
+     */
 
-}
+/* } */
 .main-section2 h2{
     color: rgba(20, 20, 20, 0.623);
     margin-left: 40px;
 }
-.main-section2-div1-images img{
-    /* object-fit:cover ; */
+/* .main-section2-div1-images img{
+    object-fit:cover ;
     display: flex;
     height: 200px;
     padding: 20px;
     width: 100%;
     
-}
+} */
 
 /* || */
     .main1{
-            background-color: red;
-            padding: 20px;
-            display: block;
-           margin: 100px 0 0 0;
+              
+  background-color: var(--nav-background-color);
+            padding: 1px;
+            display: flex;
+           margin: 10px 0 0 0;
            display: flex;
             left: 50%;
             justify-content: space-evenly;
             
-
+            /* overflow: hidden; */
+            flex-wrap: wrap;
 
         }
-        body{
-            height: 100vh;
+        .imgClass img{
+             height: 200px;
         }
+       
         .imgClass{
+            display: block;
             box-shadow:100px;
-            background-color: white;
-            padding: 060px;
+          background-color: rgba(0, 128, 0, 0.829);
+            padding: 010px;
               border-radius: 5px 10px;
               box-shadow: 3px 2px 2px 2px #4A3D3E;
+              margin: 20px;
 
-
+         
 
         }
+        
         .cedis1{
                 position: relative;
                 top: -57px;
